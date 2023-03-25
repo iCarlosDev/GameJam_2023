@@ -36,7 +36,17 @@ public class PlayerController : MonoBehaviour
 
     //GETTERS && SETTERS//
     public Animator Animator => _animator;
-    
+    public float Speed
+    {
+        get => speed;
+        set => speed = value;
+    }
+    public float TurnSmoothTime
+    {
+        get => turnSmoothTime;
+        set => turnSmoothTime = value;
+    }
+
     ///////////////////////////////////////
 
     private void Update()
@@ -45,7 +55,7 @@ public class PlayerController : MonoBehaviour
 
         CalculateGravity();
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && speed > 2)
         {
             Dash();
         }

@@ -1,9 +1,7 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Arena_LevelManager : MonoBehaviour
+public class NormalWorld_LevelManager : MonoBehaviour
 {
     [SerializeField] private PlayerStorage playerStorage;
 
@@ -20,14 +18,14 @@ public class Arena_LevelManager : MonoBehaviour
         ScenePlayerParameters();
         VirtualCameraController.instance.VirtualCameraEndAnimation();
     }
-    
+
     private void ScenePlayerParameters()
     {
-        playerStorage.PlayerController.Speed = 5f;
-        playerStorage.PlayerController.TurnSmoothTime = 0.1f;
+        playerStorage.PlayerController.Speed = 2f;
+        playerStorage.PlayerController.TurnSmoothTime = 0.05f;
         playerStorage.PlayerController.Animator.SetFloat("PlayerSpeed", playerStorage.PlayerController.Speed);
-        playerStorage.PlayerController.Animator.SetLayerWeight(1, 1);
-        playerStorage.Sword.SetActive(true);
-        playerStorage.Trail.SetActive(true);
+        playerStorage.PlayerController.Animator.SetLayerWeight(1, 0);
+        playerStorage.Sword.SetActive(false);
+        playerStorage.Trail.SetActive(false);
     }
 }
