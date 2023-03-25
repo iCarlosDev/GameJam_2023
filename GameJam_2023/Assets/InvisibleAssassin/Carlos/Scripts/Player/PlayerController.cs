@@ -28,8 +28,16 @@ public class PlayerController : MonoBehaviour
 
     [Header("--- DASH PARAMETERS ---")] 
     [Space(10)]
+    [SerializeField] private float dashMultiplicator;
     [SerializeField] private float dashTime;
+    [SerializeField] private float dashTimeCooldown;
     private Coroutine movementCooldown;
+    private Coroutine dashCooldown;
+
+    //GETTERS && SETTERS//
+    public Animator Animator => _animator;
+    
+    ///////////////////////////////////////
 
     private void Update()
     {
@@ -100,32 +108,61 @@ public class PlayerController : MonoBehaviour
     private void Dash()
     {
         //Hasta que la corrutina del dash no haya acabado no podrás volver a dashear (Hace que no puedas dashear infinitamente);
-        if (movementCooldown != null)
+        if (movementCooldown != null || dashCooldown != null)
         {
             return; 
         }
-
+        
+        //Empezamos corrutina para no poder movernos mientras dasheamos;
         movementCooldown = StartCoroutine(MovementCooldown_Coroutine());
         
+        //Cambiamos las wights de la layer de la pose "EnGuardia" y la layer "Ataque" por un problema de animación;
+        _animator.SetLayerWeight(1, 0);
+        _animator.SetLayerWeight(2, 1);
+        //Activamos los triggers para hacer las animaciones "Dash" y "Attack";
         _animator.SetTrigger("Dash");
+        _animator.SetTrigger("Attack");
+        _animator.SetBool("IsDashing", true);
     }
-
+    
+    //Corrutina para no poder movernos mientras dasheamos;
     private IEnumerator MovementCooldown_Coroutine()
     {
-        speed *= 8f;
+        //Multiplicamos la velocidad para llegar más lejos;
+        speed *= dashMultiplicator;
+        
+        //Reseteamos los ejes horizontal y vertical de las teclas WASD para recorrer la misma distancia quieto o en movimiento;
         horizontal = 0f;
         vertical = 0f;
         
         float contador = 0f;
+        //Mientras el contador sea menor al tiempo del dash seguiremos dasheando;
         while (contador < dashTime)
         {
             _characterController.Move(transform.forward * speed * Time.deltaTime);
             contador += Time.deltaTime;
             yield return null;
         }
+
+        //Volvemos a cambiar los weights de las layers para tenerlo por defecto;
+        _animator.SetLayerWeight(1, 1);
+        _animator.SetLayerWeight(2, 0);
         
+        _animator.SetBool("IsDashing", false);
+        
+        //Dejamos las speed por defecto;
         speed = 5f;
         movementCooldown = null;
+
+        //Empezamos corrutina para tener un cooldown para poder dashear otra vez;
+        dashCooldown = StartCoroutine(DashCooldown_Coroutine());
         yield return null;
+    }
+
+    //Corrutina para tener un cooldown para poder dashear otra vez;
+    private IEnumerator DashCooldown_Coroutine()
+    {
+        yield return new WaitForSeconds(dashTimeCooldown);
+        dashCooldown = null;
     }
 }

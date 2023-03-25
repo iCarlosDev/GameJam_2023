@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a368d6b-15e4-48d3-8743-d802aa1e491b" name="Changes" comment="" />
+    <list default="true" id="3a368d6b-15e4-48d3-8743-d802aa1e491b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Ch36_nonPBR@Sheathing Sword.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Ch36_nonPBR@Sheathing Sword.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/GuardPose.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/GuardPose.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/PlayerController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/PlayerController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/UpperBody_PlayerMask.mask" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/UpperBody_PlayerMask.mask" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Diffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Glossiness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Glossiness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_Body.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_Body.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/PlayerTest.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/PlayerTest.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Arena_LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy_AI.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -25,10 +55,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\carlo\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\carlo\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\carlo\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath D:\SantMarc\2CFGS\Github\GameJam_2023\GameJam_2023 -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\SantMarc\2CFGS\Github\GameJam_2023\GameJam_2023" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\a.magano\Documents\GitHub\GameJam_2023\GameJam_2023 -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -68,6 +114,7 @@
       <updated>1679673169272</updated>
       <workItem from="1679673187814" duration="35000" />
       <workItem from="1679673236094" duration="9518000" />
+      <workItem from="1679734205074" duration="7297000" />
     </task>
     <servers />
   </component>
@@ -90,5 +137,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
