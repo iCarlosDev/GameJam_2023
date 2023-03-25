@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/InvisibleAssassin/Carlos/Scenes/MainMenu.unity
+    guid: 493d07b65820eb34183ce54732753f46
+  - enabled: 1
     path: Assets/InvisibleAssassin/Carlos/Scenes/NormalWorldScene.unity
     guid: 479ff2f68947f4041be6c2ee2655a29a
   - enabled: 1

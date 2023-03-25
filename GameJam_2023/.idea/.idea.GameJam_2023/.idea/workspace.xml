@@ -3,17 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="3a368d6b-15e4-48d3-8743-d802aa1e491b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/PlayerController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/PlayerController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/PolygonDungeon/Prefabs/Characters/Character_Tormented_Soul.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/PolygonDungeon/Prefabs/Characters/Character_Tormented_Soul.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/PolygonNature/Textures/Grass_Textures/Flat/Grass_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/PolygonNature/Textures/Grass_Textures/Flat/Grass_02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Arena_LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Arena_LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Attack/Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Attack/Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Materials/Autotileable_M.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Materials/Autotileable_M.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/ArenaScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/ArenaScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene/SkyandFogSettingsProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene/SkyandFogSettingsProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/NormalWorldScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/NormalWorldScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +26,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Arena_LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Caliz/CalizController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Enemy/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/NormalWorld_LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy_AI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../LaboratoryScape/LaboratoryScape/Assets/Members/Carlos/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../SantMarcWeb/SantMarcWeb/Assets/Members/Carlos/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -104,7 +108,8 @@
       <updated>1679673169272</updated>
       <workItem from="1679673187814" duration="35000" />
       <workItem from="1679673236094" duration="9518000" />
-      <workItem from="1679734205074" duration="13493000" />
+      <workItem from="1679734205074" duration="13962000" />
+      <workItem from="1679757072952" duration="4869000" />
     </task>
     <servers />
   </component>

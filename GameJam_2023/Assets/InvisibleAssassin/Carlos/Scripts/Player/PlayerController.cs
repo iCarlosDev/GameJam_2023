@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -28,14 +29,26 @@ public class PlayerController : MonoBehaviour
 
     [Header("--- DASH PARAMETERS ---")] 
     [Space(10)]
+    [SerializeField] private ParticleSystem swordParticles;
     [SerializeField] private float dashMultiplicator;
     [SerializeField] private float dashTime;
     [SerializeField] private float dashTimeCooldown;
+    [SerializeField] private bool dashCombo;
     private Coroutine movementCooldown;
     private Coroutine dashCooldown;
 
     //GETTERS && SETTERS//
     public Animator Animator => _animator;
+    public Coroutine DashCooldown
+    {
+        get => dashCooldown;
+        set => dashCooldown = value;
+    }
+    public bool DashCombo
+    {
+        get => dashCombo;
+        set => dashCombo = value;
+    }
     public float Speed
     {
         get => speed;
@@ -48,6 +61,16 @@ public class PlayerController : MonoBehaviour
     }
 
     ///////////////////////////////////////
+
+    private void Awake()
+    {
+        mainCamera = FindObjectOfType<Camera>();
+    }
+
+    private void Start()
+    {
+        swordParticles.Stop();
+    }
 
     private void Update()
     {
@@ -133,11 +156,15 @@ public class PlayerController : MonoBehaviour
         _animator.SetTrigger("Dash");
         _animator.SetTrigger("Attack");
         _animator.SetBool("IsDashing", true);
+        
+        swordParticles.Play();
     }
     
     //Corrutina para no poder movernos mientras dasheamos;
     private IEnumerator MovementCooldown_Coroutine()
     {
+        dashCombo = false;
+        
         //Multiplicamos la velocidad para llegar más lejos;
         speed *= dashMultiplicator;
         
@@ -164,9 +191,13 @@ public class PlayerController : MonoBehaviour
         speed = 5f;
         movementCooldown = null;
 
-        //Empezamos corrutina para tener un cooldown para poder dashear otra vez;
-        dashCooldown = StartCoroutine(DashCooldown_Coroutine());
-        yield return null;
+        if (!dashCombo)
+        {
+            Debug.Log("OLA");
+            //Empezamos corrutina para tener un cooldown para poder dashear otra vez;
+            dashCooldown = StartCoroutine(DashCooldown_Coroutine());
+            yield return null;
+        }
     }
 
     //Corrutina para tener un cooldown para poder dashear otra vez;
