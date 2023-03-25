@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a368d6b-15e4-48d3-8743-d802aa1e491b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Ch36_nonPBR@Sheathing Sword.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Ch36_nonPBR@Sheathing Sword.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/GuardPose.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/GuardPose.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/PlayerController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/PlayerController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/UpperBody_PlayerMask.mask" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/UpperBody_PlayerMask.mask" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Glossiness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Glossiness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_1001_Specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_Body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/Ch36_Body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/PlayerTest.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Models/PlayerTest/PlayerTest.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="3a368d6b-15e4-48d3-8743-d802aa1e491b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +26,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
     "vue.rearranger.settings.migration": "true"
   },

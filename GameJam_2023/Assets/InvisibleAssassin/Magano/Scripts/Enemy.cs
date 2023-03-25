@@ -13,10 +13,13 @@ public class Enemy : MonoBehaviour
 
     public int vida = 100;
 
+    public Enemy_AI _enemyAI;
+
     void Start()
     {
         _animator = GetComponent<Animator>();
         _mesh = GetComponent<NavMeshAgent>();
+        _enemyAI = GetComponent<Enemy_AI>();
     }
 
     
@@ -28,7 +31,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("Caliz"))
         {
             _animator.SetBool("IsHitting", true);
             _animator.SetBool("IsHitting_2", true);
@@ -38,8 +41,16 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        _animator.SetBool("IsHitting", false);
-        _animator.SetBool("IsHitting_2", false);
+        if (_enemyAI.RangeCalizOkFlag == false)
+        {
+            if (other.CompareTag("Player"))
+            {
+                _animator.SetBool("IsHitting", false);
+                _animator.SetBool("IsHitting_2", false); 
+            }
+        }
+        
+       
     }
 
     private void RestarVida()
