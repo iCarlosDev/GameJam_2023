@@ -62,15 +62,13 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void Die()
+    public void Die()
     {
         if (vida <= 0)
         {
             fx_polvo.SetActive(false);
             _animator.enabled = false;
             _mesh.speed = 0f;
-            
-
         }
     }
 }

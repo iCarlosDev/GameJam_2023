@@ -1,37 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a368d6b-15e4-48d3-8743-d802aa1e491b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Attack/Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Attack/Attack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Materials/Autotileable_M.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Materials/Autotileable_M.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/ArenaScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/ArenaScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene/Global Volume Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene/SkyandFogSettingsProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene/SkyandFogSettingsProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/NormalWorldScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/NormalWorldScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="3a368d6b-15e4-48d3-8743-d802aa1e491b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa5456.8453/Respawn.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Arena_LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Caliz/CalizController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Enemy/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/NormalWorld_LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy_AI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../LaboratoryScape/LaboratoryScape/Assets/Members/Carlos/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../SantMarcWeb/SantMarcWeb/Assets/Members/Carlos/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Respawn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,7 +51,7 @@
       <method v="2" />
     </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\SantMarc\Programas\2021.3.14f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\a.magano\Documents\GitHub\GameJam_2023\GameJam_2023 -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.magano\Documents\GitHub\GameJam_2023\GameJam_2023" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -110,6 +91,7 @@
       <workItem from="1679673236094" duration="9518000" />
       <workItem from="1679734205074" duration="13962000" />
       <workItem from="1679757072952" duration="4869000" />
+      <workItem from="1679770409789" duration="3340000" />
     </task>
     <servers />
   </component>
