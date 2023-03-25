@@ -36,8 +36,13 @@ public class VirtualCameraController : MonoBehaviour
 
     private void Start()
     {
-        if (SceneManager.GetActiveScene().buildIndex.Equals(0)) sceneIndex = 1;
-        else sceneIndex = 0;
+        getCurrentScene();
+    }
+
+    private void getCurrentScene()
+    {
+        if (SceneManager.GetActiveScene().buildIndex.Equals(1)) sceneIndex = 2;
+        else sceneIndex = 1;
     }
 
     public void VirtualCameraBeginAnimation()
@@ -49,6 +54,7 @@ public class VirtualCameraController : MonoBehaviour
     {
         _cinemachineVirtualCamera.Follow = FindObjectOfType<PlayerController>().transform;
         VirtualCameraAnimator.SetTrigger("TransitionEnd");
+        getCurrentScene();
     }
     
     public void PlayerParametersWhenAnimationRunning(int boolNumber)

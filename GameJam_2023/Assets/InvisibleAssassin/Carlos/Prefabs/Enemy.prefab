@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 3448320043384080329}
   - component: {fileID: 3448320043384080328}
   - component: {fileID: 3448320043384080335}
-  - component: {fileID: 3448320043384080334}
+  - component: {fileID: 3448320043094491061}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fx_polvo: {fileID: 3448320043687784555}
   vida: 100
-  _enemyAI: {fileID: 0}
+  _enemyAI: {fileID: 3448320043384080335}
 --- !u!195 &3448320043384080328
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   caliz: {fileID: 0}
   _fieldOfView: {fileID: 0}
   RangeCalizOkFlag: 0
---- !u!114 &3448320043384080334
+--- !u!114 &3448320043094491061
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

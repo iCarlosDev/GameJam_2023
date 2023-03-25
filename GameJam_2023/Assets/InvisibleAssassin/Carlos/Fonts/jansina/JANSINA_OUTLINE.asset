@@ -53,7 +53,7 @@ Material:
     - _ColorMask: 15
     - _CullMode: 0
     - _Diffuse: 0.5
-    - _FaceDilate: 0
+    - _FaceDilate: 0.24
     - _FaceUVSpeedX: 0
     - _FaceUVSpeedY: 0
     - _GlowInner: 0.05
@@ -67,12 +67,12 @@ Material:
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0
+    - _OutlineWidth: 0.25
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
     - _ScaleRatioA: 0.9
-    - _ScaleRatioB: 0.73125
-    - _ScaleRatioC: 0.73125
+    - _ScaleRatioB: 0.51525
+    - _ScaleRatioC: 0.51525
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -115,11 +115,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: JANSINA SDF
+  m_Name: JANSINA_OUTLINE
   m_EditorClassIdentifier: 
-  hashCode: 620940129
+  hashCode: 1039277007
   material: {fileID: -7826368861637720000}
-  materialHashCode: 1572049953
+  materialHashCode: 1501523087
   m_Version: 1.1.0
   m_SourceFontFileGUID: d8ed525cebeae374985a3a6229615904
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: d8ed525cebeae374985a3a6229615904,

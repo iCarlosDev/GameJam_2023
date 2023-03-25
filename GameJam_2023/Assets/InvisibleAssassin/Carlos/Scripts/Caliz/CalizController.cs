@@ -17,6 +17,7 @@ public class CalizController : MonoBehaviour
     private void StartArena()
     {
         VirtualCameraController.instance.VirtualCameraBeginAnimation();
+        shouldStartArena = false;
     }
     
     private void OnTriggerEnter(Collider other)

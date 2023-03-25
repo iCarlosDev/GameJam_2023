@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
@@ -20,7 +21,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && _playerController.Speed > 2 && currentHealth > 0)
         {
             TakeDamage(50);
 
@@ -40,5 +41,12 @@ public class PlayerHealth : MonoBehaviour
     {
         _playerController.enabled = false;
         _playerController.Animator.SetTrigger("Death");
+        StartCoroutine(GoNormalDimension_Coroutine());
+    }
+
+    private IEnumerator GoNormalDimension_Coroutine()
+    {
+        yield return new WaitForSeconds(5f);
+        VirtualCameraController.instance.VirtualCameraBeginAnimation();
     }
 }
