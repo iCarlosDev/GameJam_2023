@@ -69,6 +69,17 @@ public class Enemy : MonoBehaviour
             fx_polvo.SetActive(false);
             _animator.enabled = false;
             _mesh.speed = 0f;
+
+            GetComponent<SphereCollider>().enabled = false;
+            GetComponent<CapsuleCollider>().enabled = false;
+
+            StartCoroutine(DestroyEnemy());
         }
+    }
+
+    private IEnumerator DestroyEnemy()
+    {
+        yield return new WaitForSeconds(3f);
+        Destroy(gameObject);
     }
 }

@@ -3,12 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
     [SerializeField] private CharacterController _characterController;
     [SerializeField] private Camera mainCamera;
+    [SerializeField] private PlayerStorage _playerStorage;
 
     [Header("--- MOVEMENT PARAMETERS ---")]
     [Space(10)]
@@ -36,6 +38,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private bool dashCombo;
     private Coroutine movementCooldown;
     private Coroutine dashCooldown;
+
+    [Header("--- FOOTSTEPS SOUNDS ---")] 
+    [Space(10)] 
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private int footStepsSoundsIndex;
+    [SerializeField] private List<AudioClip> footStepsSoundsList;
 
     //GETTERS && SETTERS//
     public Animator Animator => _animator;
@@ -65,6 +73,8 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         mainCamera = FindObjectOfType<Camera>();
+        _playerStorage = GetComponent<PlayerStorage>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     private void Start()
@@ -157,6 +167,7 @@ public class PlayerController : MonoBehaviour
         _animator.SetTrigger("Attack");
         _animator.SetBool("IsDashing", true);
         
+        AudioManager.instance.PlayOneShot("SwordSwing");
         swordParticles.Play();
     }
     
@@ -188,13 +199,14 @@ public class PlayerController : MonoBehaviour
         _animator.SetBool("IsDashing", false);
         
         //Dejamos las speed por defecto;
-        speed = 5f;
+        speed = 6f;
         movementCooldown = null;
 
         if (!dashCombo)
         {
-            Debug.Log("OLA");
             //Empezamos corrutina para tener un cooldown para poder dashear otra vez;
+            _playerStorage.PlayerWeapon.ComboNumber = 0;
+            _playerStorage.Trail.time = 0.1f;
             dashCooldown = StartCoroutine(DashCooldown_Coroutine());
             yield return null;
         }
@@ -205,5 +217,19 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(dashTimeCooldown);
         dashCooldown = null;
+    }
+
+    public void FootStepsSoundsController()
+    {
+        _audioSource.clip = footStepsSoundsList[footStepsSoundsIndex];
+        //_audioSource.PlayOneShot(_audioSource.clip);
+        _audioSource.Play();
+        
+        footStepsSoundsIndex++;
+
+        if (footStepsSoundsIndex > 2)
+        {
+            footStepsSoundsIndex = 0;
+        }
     }
 }

@@ -22,7 +22,7 @@ public class CalizController : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("GameController"))
         {
             shouldStartArena = true;
         }
@@ -30,7 +30,7 @@ public class CalizController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("GameController"))
         {
             shouldStartArena = false;
         }

@@ -17,6 +17,8 @@ public class NormalWorld_LevelManager : MonoBehaviour
         
         ScenePlayerParameters();
         VirtualCameraController.instance.VirtualCameraEndAnimation();
+        
+        AudioManager.instance.Play("NormalDimensionBackground");
     }
 
     private void ScenePlayerParameters()
@@ -26,6 +28,6 @@ public class NormalWorld_LevelManager : MonoBehaviour
         playerStorage.PlayerController.Animator.SetFloat("PlayerSpeed", playerStorage.PlayerController.Speed);
         playerStorage.PlayerController.Animator.SetLayerWeight(1, 0);
         playerStorage.Sword.SetActive(false);
-        playerStorage.Trail.SetActive(false);
+        playerStorage.Trail.gameObject.SetActive(false);
     }
 }

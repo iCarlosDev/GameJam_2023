@@ -13,6 +13,7 @@ public class Enemy_AI : MonoBehaviour
  public FieldOfView _fieldOfView;
 
  public bool RangeCalizOkFlag;
+ public bool playerDetected;
  
 
 
@@ -31,7 +32,12 @@ public class Enemy_AI : MonoBehaviour
 
  void Update()
     {
-        if (_fieldOfView.canSeePlayer == true && RangeCalizOkFlag == false)
+        if (_fieldOfView.canSeePlayer == true)
+        {
+            playerDetected = true;
+        }
+
+        if (playerDetected && RangeCalizOkFlag == false)
         {
             PerseguirPlayer();
         }

@@ -17,7 +17,7 @@ public class EnemyHealth : MonoBehaviour
         hitParticle.Stop();
     }
 
-    private void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         _enemy.vida -= damage;
         hitParticle.Play();
@@ -25,10 +25,11 @@ public class EnemyHealth : MonoBehaviour
         if (_enemy.vida <= 0)
         {
             _enemy.Die();
+            GetComponent<CapsuleCollider>().enabled = false;
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Weapon"))
         {
@@ -37,5 +38,5 @@ public class EnemyHealth : MonoBehaviour
                 TakeDamage(_enemy.vida);    
             }
         }
-    }
+    }*/
 }

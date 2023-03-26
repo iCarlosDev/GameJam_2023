@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -19,25 +20,17 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E) && _playerController.Speed > 2 && currentHealth > 0)
-        {
-            TakeDamage(50);
-
-            if (currentHealth <= 0)
-            {
-                Die();
-            }
-        }
-    }
-
     private void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
     }
 
-    private void Die()
+    public void Die()
     {
         _playerController.enabled = false;
         _playerController.Animator.SetTrigger("Death");
@@ -48,5 +41,16 @@ public class PlayerHealth : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         VirtualCameraController.instance.VirtualCameraBeginAnimation();
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("EnemyAttackColider"))
+        {
+            if (currentHealth > 0)
+            {
+                TakeDamage(50);
+            }
+        }
     }
 }

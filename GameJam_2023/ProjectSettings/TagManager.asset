@@ -8,6 +8,7 @@ TagManager:
   - Caliz
   - EnemyColider
   - Weapon
+  - EnemyAttackColider
   layers:
   - Default
   - TransparentFX

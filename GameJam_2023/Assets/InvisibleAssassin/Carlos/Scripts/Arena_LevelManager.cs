@@ -5,10 +5,18 @@ using UnityEngine;
 
 public class Arena_LevelManager : MonoBehaviour
 {
+    public static Arena_LevelManager instance;
+    
     [SerializeField] private PlayerStorage playerStorage;
 
+    //GETTERS && SETTERS//
+    public PlayerStorage PlayerStorage => playerStorage;
+
+    //////////////////////////////////
+    
     private void Awake()
     {
+        instance = this;
         playerStorage = FindObjectOfType<PlayerStorage>();
     }
 
@@ -28,6 +36,6 @@ public class Arena_LevelManager : MonoBehaviour
         playerStorage.PlayerController.Animator.SetFloat("PlayerSpeed", playerStorage.PlayerController.Speed);
         playerStorage.PlayerController.Animator.SetLayerWeight(1, 1);
         playerStorage.Sword.SetActive(true);
-        playerStorage.Trail.SetActive(true);
+        playerStorage.Trail.gameObject.SetActive(true);
     }
 }
