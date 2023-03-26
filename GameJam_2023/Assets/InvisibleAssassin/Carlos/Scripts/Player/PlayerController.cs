@@ -44,6 +44,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private int footStepsSoundsIndex;
     [SerializeField] private List<AudioClip> footStepsSoundsList;
+    
+    private Coroutine finishCombo;
 
     //GETTERS && SETTERS//
     public Animator Animator => _animator;
@@ -51,6 +53,11 @@ public class PlayerController : MonoBehaviour
     {
         get => dashCooldown;
         set => dashCooldown = value;
+    }
+    public Coroutine MovementCooldown
+    {
+        get => movementCooldown;
+        set => movementCooldown = value;
     }
     public bool DashCombo
     {
@@ -192,6 +199,14 @@ public class PlayerController : MonoBehaviour
             yield return null;
         }
 
+        if (movementCooldown != null)
+        {
+            StopDashing();
+        }
+    }
+    
+    public void StopDashing()
+    {
         //Volvemos a cambiar los weights de las layers para tenerlo por defecto;
         _animator.SetLayerWeight(1, 1);
         _animator.SetLayerWeight(2, 0);
@@ -205,10 +220,8 @@ public class PlayerController : MonoBehaviour
         if (!dashCombo)
         {
             //Empezamos corrutina para tener un cooldown para poder dashear otra vez;
-            _playerStorage.PlayerWeapon.ComboNumber = 0;
             _playerStorage.Trail.time = 0.1f;
             dashCooldown = StartCoroutine(DashCooldown_Coroutine());
-            yield return null;
         }
     }
 
@@ -217,6 +230,23 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(dashTimeCooldown);
         dashCooldown = null;
+    }
+
+    public void FinishCombo()
+    {
+        if (finishCombo != null)
+        {
+            StopCoroutine(finishCombo);
+            finishCombo = null;
+        }
+        
+        finishCombo = StartCoroutine(FinishCombo_Coroutine());
+    }
+    
+    private IEnumerator FinishCombo_Coroutine()
+    {
+        yield return new WaitForSeconds(_playerStorage.PlayerWeapon.TimeToFinishCombo);
+        _playerStorage.PlayerWeapon.ComboNumber = 0;
     }
 
     public void FootStepsSoundsController()

@@ -3,128 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3a368d6b-15e4-48d3-8743-d802aa1e491b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Locomotion/Sprint.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Locomotion/Sprint.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Locomotion/Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/Player/Locomotion/Walk.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/JANSINA SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/JANSINA SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Materials/Default.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Materials/Default.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Materials/Grid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Materials/Grid.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/BigExplosion.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/BigExplosion.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/DebrisParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/DebrisParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/Dust.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/Dust.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/Embers.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/Embers.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/EnergyExplosion.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/EnergyExplosion.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/EnergyShockwave.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/EnergyShockwave.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/Explosion.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/Explosion.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/ExplosionDistortion.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/ExplosionDistortion.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/FireExplosion.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/FireExplosion.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/SandParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/SandParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/SmokeDark.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/SmokeDark.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/fireball.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Materials/fireball.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Debris.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Debris.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/EnergyEffect.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/EnergyEffect.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Explosion.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Explosion.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/ExplosionEmission.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/ExplosionEmission.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/FireBallEmission.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/FireBallEmission.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/FireExplosion.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/FireExplosion.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Fireball.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Fireball.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Flame02.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Flame02.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Flame03.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Flame03.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/LargeFlame02.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/LargeFlame02.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Ramp02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Ramp02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Ramp03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/Ramp03.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/RoundSoftParticle.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/RoundSoftParticle.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/SmokePuff01.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/SmokePuff01.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/SmokePuff02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/SmokePuff02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/SmokePuffNormal.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/SmokePuffNormal.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/SphereNormal.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/SphereNormal.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/TinyStones.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/TinyStones.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/ramp01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/ramp01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/shockwave.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Demo/Particles/Textures/shockwave.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Documentation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Documentation.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Scripts/StressReceiver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Scripts/StressReceiver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Scripts/TraumaInducer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/CameraShakeFX/Scripts/TraumaInducer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/AudioManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/AudioManager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/ArenaScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/ArenaScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/NormalWorldScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/NormalWorldScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Arena_LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Arena_LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Caliz/CalizController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Caliz/CalizController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Enemy/EnemyHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/NormalWorld_LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/NormalWorld_LevelManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerStorage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Animations/Enemy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Animations/Enemy.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Animations/hi1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Animations/hi1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Animations/hit2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Animations/hit2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scenes/OutdoorsScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scenes/OutdoorsScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy_AI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy_AI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +110,7 @@
       <workItem from="1679757072952" duration="4869000" />
       <workItem from="1679770409789" duration="3340000" />
       <workItem from="1679821129213" duration="13501000" />
+      <workItem from="1679840632852" duration="1503000" />
     </task>
     <servers />
   </component>
