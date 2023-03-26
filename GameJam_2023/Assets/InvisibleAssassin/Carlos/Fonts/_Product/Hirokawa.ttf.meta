@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 68c8ffabef1f32c468ce495bf30bb133
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hirokawa
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2021dd6d0ea7aa644ae3e85b96b2961a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

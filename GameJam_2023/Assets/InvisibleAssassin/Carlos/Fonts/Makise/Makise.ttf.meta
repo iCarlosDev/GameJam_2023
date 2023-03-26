@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 87aec0d146ced6b44839bd9e258e260e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Makise
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b19ef5c1dc5795641a542b7f26a6d608, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

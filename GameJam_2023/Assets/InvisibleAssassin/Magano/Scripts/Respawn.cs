@@ -32,6 +32,7 @@ public class Respawn : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("ey");
             IsEnter = true;
         }
     }

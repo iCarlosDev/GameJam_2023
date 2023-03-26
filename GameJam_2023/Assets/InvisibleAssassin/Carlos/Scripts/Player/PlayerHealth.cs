@@ -1,30 +1,21 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private PlayerController _playerController;
-    
-    [SerializeField] private int maxHealth;
-    [SerializeField] private int currentHealth;
+    [SerializeField] private PlayerStorage _playerStorage;
 
     private void Awake()
     {
-        _playerController = GetComponent<PlayerController>();
-    }
-    
-    private void Start()
-    {
-        maxHealth = 100;
-        currentHealth = maxHealth;
+        _playerStorage = GetComponent<PlayerStorage>();
     }
 
-    private void TakeDamage(int damage)
+    private void TakeDamage()
     {
-        currentHealth -= damage;
-        
-        if (currentHealth <= 0)
+        GameManager.instance.CurrentLives --;
+        Destroy(_playerStorage.HealthBarController.HeartsBox.GetChild(0).gameObject);
+
+        if (GameManager.instance.CurrentLives == 0)
         {
             Die();
         }
@@ -32,8 +23,8 @@ public class PlayerHealth : MonoBehaviour
 
     public void Die()
     {
-        _playerController.enabled = false;
-        _playerController.Animator.SetTrigger("Death");
+        _playerStorage.PlayerController.enabled = false;
+        _playerStorage.PlayerController.Animator.SetTrigger("Death");
         StartCoroutine(GoNormalDimension_Coroutine());
     }
 
@@ -47,9 +38,9 @@ public class PlayerHealth : MonoBehaviour
     {
         if (other.CompareTag("EnemyAttackColider"))
         {
-            if (currentHealth > 0)
+            if (_playerStorage.HealthBarController.HeartsBox.childCount > 0)
             {
-                TakeDamage(50);
+                TakeDamage();
             }
         }
     }

@@ -4,8 +4,12 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] private ParticleSystem hitParticle;
-
     [SerializeField] private Enemy _enemy;
+    [SerializeField] private GameObject enemySoul;
+    [SerializeField] private Transform enemySoulDestination;
+    [SerializeField] private bool soulGoCaliz;
+
+    public Enemy Enemy => _enemy;
 
     private void Awake()
     {
@@ -26,17 +30,35 @@ public class EnemyHealth : MonoBehaviour
         {
             _enemy.Die();
             GetComponent<CapsuleCollider>().enabled = false;
+            GameObject soul = Instantiate(enemySoul, transform.position, Quaternion.identity);
+
+            if (soulGoCaliz)
+            {
+                soul.GetComponent<EnemySoul>().Target = FindObjectOfType<CalizSouls>().transform;
+            }
+            else
+            {
+                soul.GetComponent<EnemySoul>().Target = enemySoulDestination;  
+            }
+
+            enemySoulDestination.parent = null;
+            soul.transform.parent = null;
         }
     }
 
-    /*private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Weapon"))
+        if (other.CompareTag("CalizRange"))
         {
-            if (_enemy.vida > 0)
-            {
-                TakeDamage(_enemy.vida);    
-            }
+            soulGoCaliz = true;
         }
-    }*/
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("CalizRange"))
+        {
+            soulGoCaliz = false;
+        }
+    }
 }

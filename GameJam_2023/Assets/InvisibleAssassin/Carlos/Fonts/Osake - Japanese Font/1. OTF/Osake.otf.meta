@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9f39b86096fe99a469255855d5830506
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Osake
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: feaebe6fba29b004d81b4c2394db93b9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

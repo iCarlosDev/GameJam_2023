@@ -62,7 +62,7 @@ MonoBehaviour:
     playOnAwake: 0
     source: {fileID: 0}
   - name: NormalDimensionBackground
-    clip: {fileID: 8300000, guid: 3d94e9c17ad117046bd1acc09e7c36ac, type: 3}
+    clip: {fileID: 8300000, guid: 3549537eb9e91a74eaab1382ab9ee33b, type: 3}
     volume: 0.191
     pitch: 1
     spatialBlend: 0

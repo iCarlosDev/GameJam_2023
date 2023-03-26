@@ -11,6 +11,8 @@ public class CalizController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && shouldStartArena)
         {
             StartArena();
+            GameManager.instance.PlayerPosition = GameObject.FindWithTag("PlayerBase").transform.position;
+            GameManager.instance.PlayerRotation = GameObject.FindWithTag("PlayerBase").transform.rotation;
         }
     }
 
@@ -22,7 +24,7 @@ public class CalizController : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("GameController"))
+        if (other.CompareTag("PlayerBase"))
         {
             shouldStartArena = true;
         }
@@ -30,7 +32,7 @@ public class CalizController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("GameController"))
+        if (other.CompareTag("PlayerBase"))
         {
             shouldStartArena = false;
         }

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ed57832120800b3499f0250fc6210bfb
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Geisha
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d3ade4789612abb4abcc97fe2335d7ed, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

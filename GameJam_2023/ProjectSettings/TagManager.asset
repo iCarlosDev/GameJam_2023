@@ -9,6 +9,10 @@ TagManager:
   - EnemyColider
   - Weapon
   - EnemyAttackColider
+  - CalizRange
+  - PlayerBase
+  - Soul
+  - SoulDestination
   layers:
   - Default
   - TransparentFX

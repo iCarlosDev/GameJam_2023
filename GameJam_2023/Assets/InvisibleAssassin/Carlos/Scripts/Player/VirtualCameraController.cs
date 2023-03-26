@@ -64,6 +64,8 @@ public class VirtualCameraController : MonoBehaviour
         PlayerStorage playerStorage = FindObjectOfType<PlayerStorage>();
         playerStorage.PlayerController.enabled = shouldEnable;
         playerStorage.PlayerController.Animator.SetBool("IsWalking", false);
+        
+        PlayerStorage.instance.PlayerCanvas.SetActive(shouldEnable);
     }
 
     public void LoadScene()

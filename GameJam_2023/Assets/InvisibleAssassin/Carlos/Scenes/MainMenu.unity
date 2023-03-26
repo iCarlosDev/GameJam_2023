@@ -183,8 +183,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Options
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a271ff4d75337914cb2312a129cac0ba, type: 2}
-  m_sharedMaterial: {fileID: -7826368861637720000, guid: a271ff4d75337914cb2312a129cac0ba,
+  m_fontAsset: {fileID: 11400000, guid: dbb03d0a31f15014ea97a7a38fdfefce, type: 2}
+  m_sharedMaterial: {fileID: -6870024741099990652, guid: dbb03d0a31f15014ea97a7a38fdfefce,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -319,8 +319,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a271ff4d75337914cb2312a129cac0ba, type: 2}
-  m_sharedMaterial: {fileID: -7826368861637720000, guid: a271ff4d75337914cb2312a129cac0ba,
+  m_fontAsset: {fileID: 11400000, guid: dbb03d0a31f15014ea97a7a38fdfefce, type: 2}
+  m_sharedMaterial: {fileID: -6870024741099990652, guid: dbb03d0a31f15014ea97a7a38fdfefce,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1086,7 +1086,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a271ff4d75337914cb2312a129cac0ba, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dbb03d0a31f15014ea97a7a38fdfefce, type: 2}
   m_sharedMaterial: {fileID: -7826368861637720000, guid: a271ff4d75337914cb2312a129cac0ba,
     type: 2}
   m_fontSharedMaterials: []
@@ -1151,7 +1151,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &701713250
@@ -1509,6 +1509,75 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1001 &1318425793
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1217543320887386304, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217543320887386307, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217543320887386307, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217543320887386307, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217543320887386307, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217543320887386307, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217543320887386307, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217543320887386307, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217543320887386307, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217543320887386307, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217543320887386307, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217543320887386307, guid: fdb33c09227bfc249a544190451bc846,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fdb33c09227bfc249a544190451bc846, type: 3}
 --- !u!1 &1591592790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,8 +1638,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a271ff4d75337914cb2312a129cac0ba, type: 2}
-  m_sharedMaterial: {fileID: -7826368861637720000, guid: a271ff4d75337914cb2312a129cac0ba,
+  m_fontAsset: {fileID: 11400000, guid: dbb03d0a31f15014ea97a7a38fdfefce, type: 2}
+  m_sharedMaterial: {fileID: -6870024741099990652, guid: dbb03d0a31f15014ea97a7a38fdfefce,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1703,10 +1772,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Keeper of Darknes
+  m_text: The Keeper of Darkness
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1ea14bbe70884724db1462bf13f55538, type: 2}
-  m_sharedMaterial: {fileID: -7003991297619161183, guid: 1ea14bbe70884724db1462bf13f55538,
+  m_fontAsset: {fileID: 11400000, guid: f55adb99676702f4d9cc82e668d2eb26, type: 2}
+  m_sharedMaterial: {fileID: -3951751762909789386, guid: f55adb99676702f4d9cc82e668d2eb26,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

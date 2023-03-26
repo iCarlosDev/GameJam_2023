@@ -15,19 +15,15 @@ public class Enemy : MonoBehaviour
 
     public Enemy_AI _enemyAI;
 
+    [SerializeField] private SphereCollider r_SphereCollider;
+    [SerializeField] private SphereCollider l_SphereCollider;
+
     void Start()
     {
         _animator = GetComponent<Animator>();
         _mesh = GetComponent<NavMeshAgent>();
         _enemyAI = GetComponent<Enemy_AI>();
     }
-
-    
-    void Update()
-    {
-        RestarVida();
-    }
-
 
     private void OnTriggerEnter(Collider other)
     {
@@ -37,7 +33,6 @@ public class Enemy : MonoBehaviour
             _animator.SetBool("IsHitting_2", true);
         }
     }
-
 
     private void OnTriggerExit(Collider other)
     {
@@ -49,32 +44,35 @@ public class Enemy : MonoBehaviour
                 _animator.SetBool("IsHitting_2", false); 
             }
         }
-        
-       
     }
 
-    private void RestarVida()
+    /*private void RestarVida()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
             vida -= 50;
-            Die();
+            
+            if (vida <= 0)
+            {
+                Die();
+            }
         }
-    }
+    }*/
 
     public void Die()
     {
-        if (vida <= 0)
-        {
-            fx_polvo.SetActive(false);
-            _animator.enabled = false;
-            _mesh.speed = 0f;
+        fx_polvo.SetActive(false);
+        _animator.enabled = false;
+        _mesh.speed = 0f;
 
-            GetComponent<SphereCollider>().enabled = false;
-            GetComponent<CapsuleCollider>().enabled = false;
+        GetComponent<SphereCollider>().enabled = false;
+        GetComponent<CapsuleCollider>().enabled = false;
+        r_SphereCollider.enabled = false;
+        l_SphereCollider.enabled = false;
+            
+        CalizHealth.instance.CheckEnemiesInRange(gameObject);
 
-            StartCoroutine(DestroyEnemy());
-        }
+        StartCoroutine(DestroyEnemy());
     }
 
     private IEnumerator DestroyEnemy()

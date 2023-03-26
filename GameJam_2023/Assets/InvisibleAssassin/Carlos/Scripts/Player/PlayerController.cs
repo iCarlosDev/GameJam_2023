@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float horizontal;
     [SerializeField] private float vertical;
     [SerializeField] private float speed;
+    [SerializeField] private float currentSpeed;
     [SerializeField] private float turnSmoothTime;
     
     [Header("--- GRAVITY PARAMETERS ---")]
@@ -69,6 +70,11 @@ public class PlayerController : MonoBehaviour
         get => speed;
         set => speed = value;
     }
+    public float CurrentSpeed
+    {
+        get => currentSpeed;
+        set => currentSpeed = value;
+    }
     public float TurnSmoothTime
     {
         get => turnSmoothTime;
@@ -87,6 +93,8 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         swordParticles.Stop();
+
+        currentSpeed = speed;
     }
 
     private void Update()
@@ -95,7 +103,7 @@ public class PlayerController : MonoBehaviour
 
         CalculateGravity();
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && speed > 2)
+        if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetButtonDown("Fire1")) && speed > 2)
         {
             Dash();
         }
@@ -126,7 +134,7 @@ public class PlayerController : MonoBehaviour
             //guardamos donde rota en "Y" el player por su eje "Z" (dando así que siempre donde mire el player será al frente);
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             //Movemos el player hacia el frente;
-            _characterController.Move(moveDir.normalized * speed * Time.deltaTime);
+            _characterController.Move(moveDir.normalized * currentSpeed * Time.deltaTime);
             
             _animator.SetBool("IsWalking", true);
         }
@@ -184,7 +192,7 @@ public class PlayerController : MonoBehaviour
         dashCombo = false;
         
         //Multiplicamos la velocidad para llegar más lejos;
-        speed *= dashMultiplicator;
+        currentSpeed *= dashMultiplicator;
         
         //Reseteamos los ejes horizontal y vertical de las teclas WASD para recorrer la misma distancia quieto o en movimiento;
         horizontal = 0f;
@@ -194,7 +202,7 @@ public class PlayerController : MonoBehaviour
         //Mientras el contador sea menor al tiempo del dash seguiremos dasheando;
         while (contador < dashTime)
         {
-            _characterController.Move(transform.forward * speed * Time.deltaTime);
+            _characterController.Move(transform.forward * currentSpeed * Time.deltaTime);
             contador += Time.deltaTime;
             yield return null;
         }
@@ -212,15 +220,14 @@ public class PlayerController : MonoBehaviour
         _animator.SetLayerWeight(2, 0);
         
         _animator.SetBool("IsDashing", false);
+
+        currentSpeed = speed;
         
-        //Dejamos las speed por defecto;
-        speed = 6f;
         movementCooldown = null;
 
         if (!dashCombo)
         {
             //Empezamos corrutina para tener un cooldown para poder dashear otra vez;
-            _playerStorage.Trail.time = 0.1f;
             dashCooldown = StartCoroutine(DashCooldown_Coroutine());
         }
     }
@@ -247,6 +254,11 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(_playerStorage.PlayerWeapon.TimeToFinishCombo);
         _playerStorage.PlayerWeapon.ComboNumber = 0;
+        
+        //Dejamos las speed por defecto;
+        speed = 5;
+        currentSpeed = speed;
+        _playerStorage.Trail.time = 0.1f;
     }
 
     public void FootStepsSoundsController()

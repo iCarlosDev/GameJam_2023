@@ -41,6 +41,15 @@ public class Weapon : MonoBehaviour
         }
     }
 
+    private void AddHability()
+    {
+        if (GameManager.instance.CurrentHability < 10)
+        {
+            GameManager.instance.CurrentHability++;
+            playerStorage.HealthBarController.SetHabilityParameters();
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("EnemyColider"))
@@ -50,6 +59,13 @@ public class Weapon : MonoBehaviour
             TextPopUp(other);
             TrailGrow();
             
+            AddHability();
+
+            if (playerStorage.PlayerController.Speed < 7.5f)
+            {
+                playerStorage.PlayerController.Speed += 0.3125f;
+            }
+
             CameraShakeManager.instance.CameraShake(_cinemachineImpulseSource);
             
             AudioManager.instance.PlayOneShot("BoneBreak");
