@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CalizHealth : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class CalizHealth : MonoBehaviour
     
     [SerializeField] private CalizWarning _calizWarning;
     
+    [SerializeField] private Image healthbarIMG;
     [SerializeField] private int maxHealth;
     [SerializeField] private int currentHealth;
 
@@ -48,6 +50,7 @@ public class CalizHealth : MonoBehaviour
             if (currentHealth > 0)
             {
                 takeDamage(1);
+                healthbarIMG.fillAmount = (float)currentHealth / maxHealth;
             }
         }
 

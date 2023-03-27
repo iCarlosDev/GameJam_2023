@@ -5,9 +5,12 @@ public class NormalWorld_LevelManager : MonoBehaviour
 {
     [SerializeField] private PlayerStorage playerStorage;
 
+    [SerializeField] private CalizController _calizController;
+
     private void Awake()
     {
         playerStorage = FindObjectOfType<PlayerStorage>();
+        _calizController = FindObjectOfType<CalizController>();
     }
 
     void Start()
@@ -20,16 +23,22 @@ public class NormalWorld_LevelManager : MonoBehaviour
         
         AudioManager.instance.Play("NormalDimensionBackground");
 
-        if (GameManager.instance.CurrentLives == 0)
+        GameManager.instance.SoulsRequired += 20;
+        GameManager.instance.CurrentWave++;
+        
+        if (GameManager.instance.CurrentLives <= 0)
         {
             GameManager.instance.CurrentLives = 5;
             GameManager.instance.CurrentHability = 0;
+            GameManager.instance.SoulsRequired = 10;
+            GameManager.instance.CurrentWave = 1;
             
             playerStorage.HealthBarController.SetHealthBarParameters();
             playerStorage.HealthBarController.SetHabilityParameters();
         }
         
         FindObjectOfType<CalizSoulsPopUp>().gameObject.SetActive(false);
+        _calizController.transform.GetChild(3).gameObject.SetActive(false);
     }
 
     private void ScenePlayerParameters()

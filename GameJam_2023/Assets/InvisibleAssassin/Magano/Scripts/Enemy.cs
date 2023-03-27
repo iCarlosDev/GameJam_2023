@@ -23,6 +23,8 @@ public class Enemy : MonoBehaviour
         _animator = GetComponent<Animator>();
         _mesh = GetComponent<NavMeshAgent>();
         _enemyAI = GetComponent<Enemy_AI>();
+
+        vida = GameManager.instance.EnemyMaxHealth;
     }
 
     private void OnTriggerEnter(Collider other)

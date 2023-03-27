@@ -24,6 +24,14 @@ public class GameManager : MonoBehaviour
     [Space(10)] 
     [SerializeField] private int soulsRequired;
 
+    [Header("--- ENEMY HEALTH ---")] 
+    [Space(10)] 
+    [SerializeField] private int enemyMaxHealth;
+    
+    [Header("--- WAVE PARAMETERS ---")] 
+    [Space(10)] 
+    [SerializeField] private int currentWave;
+
     //GETTERS && SETTERS//
     public Vector3 PlayerPosition
     {
@@ -46,7 +54,21 @@ public class GameManager : MonoBehaviour
         get => currentHability;
         set => currentHability = value;
     }
-    public int SoulsRequired => soulsRequired;
+    public int SoulsRequired
+    {
+        get => soulsRequired;
+        set => soulsRequired = value;
+    }
+    public int EnemyMaxHealth
+    {
+        get => enemyMaxHealth;
+        set => enemyMaxHealth = value;
+    }
+    public int CurrentWave
+    {
+        get => currentWave;
+        set => currentWave = value;
+    }
 
     /////////////////////////////////////
     

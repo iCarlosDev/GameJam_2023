@@ -5,6 +5,8 @@ public class CalizController : MonoBehaviour
 {
     [SerializeField] private bool shouldStartArena;
 
+    [SerializeField] private GameObject startWavePopUp;
+
 
     private void Update()
     {
@@ -27,6 +29,7 @@ public class CalizController : MonoBehaviour
         if (other.CompareTag("PlayerBase"))
         {
             shouldStartArena = true;
+            startWavePopUp.SetActive(true);
         }
     }
 
@@ -35,6 +38,7 @@ public class CalizController : MonoBehaviour
         if (other.CompareTag("PlayerBase"))
         {
             shouldStartArena = false;
+            startWavePopUp.SetActive(false);
         }
     }
 }

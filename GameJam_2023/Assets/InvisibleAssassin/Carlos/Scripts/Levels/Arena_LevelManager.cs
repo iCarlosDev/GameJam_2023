@@ -34,10 +34,18 @@ public class Arena_LevelManager : MonoBehaviour
         playerStorage.transform.position = GameManager.instance.PlayerPosition;
         playerStorage.transform.rotation = GameManager.instance.PlayerRotation;
 
+        FindObjectOfType<CalizController>().GetComponent<SphereCollider>().enabled = false;
         FindObjectOfType<CalizController>().enabled = false;
-        
+
         ScenePlayerParameters();
         VirtualCameraController.instance.VirtualCameraEndAnimation();
+
+        GameManager.instance.EnemyMaxHealth += 100;
+        
+        if (GameManager.instance.SoulsRequired == 10)
+        {
+            GameManager.instance.EnemyMaxHealth = 100;
+        }
     }
     
     private void ScenePlayerParameters()

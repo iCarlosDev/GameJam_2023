@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,6 +12,7 @@ public class VirtualCameraController : MonoBehaviour
 
     [SerializeField] private CinemachineVirtualCamera _cinemachineVirtualCamera;
     [SerializeField] private Animator VirtualCameraAnimator;
+    [SerializeField] private TextMeshProUGUI currentWaveTMP;
     [SerializeField] private int sceneIndex;
 
     private void Awake()
@@ -64,8 +66,20 @@ public class VirtualCameraController : MonoBehaviour
         PlayerStorage playerStorage = FindObjectOfType<PlayerStorage>();
         playerStorage.PlayerController.enabled = shouldEnable;
         playerStorage.PlayerController.Animator.SetBool("IsWalking", false);
-        
         PlayerStorage.instance.PlayerCanvas.SetActive(shouldEnable);
+    }
+
+    public void waveParameters()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            currentWaveTMP.transform.parent.gameObject.SetActive(true);
+            currentWaveTMP.text = $"WAVE  {GameManager.instance.CurrentWave}";
+        }
+        else
+        {
+            currentWaveTMP.transform.parent.gameObject.SetActive(false);
+        }
     }
 
     public void LoadScene()

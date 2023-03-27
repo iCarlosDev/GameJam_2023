@@ -48,6 +48,6 @@ MonoBehaviour:
   playerRotation: {x: 0, y: 0, z: 0, w: 0}
   heartPrefab: {fileID: 8231701494142424384, guid: e55957630aef48e4e9d00c8d3a3572ec,
     type: 3}
-  currentLives: 5
+  currentLives: 0
   currentHability: 0
-  soulsRequired: 2
+  soulsRequired: 10

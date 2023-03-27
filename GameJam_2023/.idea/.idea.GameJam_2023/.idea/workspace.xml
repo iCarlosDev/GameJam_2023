@@ -3,81 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="3a368d6b-15e4-48d3-8743-d802aa1e491b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam_2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/gang_of_three.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/gang_of_three/gang_of_three SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/gang_of_three/gang_of_three SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/gang_of_three/gang_of_three.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/gang_of_three/gang_of_three.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/harukaze.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/harukaze/Harukaze SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/harukaze/Harukaze SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/harukaze/Harukaze.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/harukaze/Harukaze.otf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/harukaze/Harukaze.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/harukaze/Harukaze.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/harukaze/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/harukaze/README.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/JANSINA POPUP.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/JANSINA POPUP.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/JANSINA SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/JANSINA SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/JANSINA.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/JANSINA.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/JANSINA_OUTLINE.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/JANSINA_OUTLINE.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/MUST READ.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/jansina/MUST READ.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/sakura_town.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/sakura_town/Cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/sakura_town/Cover.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/sakura_town/READ THIS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/sakura_town/READ THIS.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/sakura_town/Sakura Town SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/sakura_town/Sakura Town SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/sakura_town/Sakura Town.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/sakura_town/Sakura Town.otf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/Dynamic Floating Text/Demo/Data/Demo_Pop.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/Dynamic Floating Text/Demo/Data/Demo_Pop.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/PolygonNature/Materials/Misc/PolygonNature_Tree_Dead.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Plugins/PolygonNature/Materials/Misc/PolygonNature_Tree_Dead.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/AudioManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/AudioManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/VirtualCamera/TransitionEnd.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Animations/VirtualCamera/TransitionEnd.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/Geisha/Geisha SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/Geisha/Geisha SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/Genjiro/TTF/Genjiro SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/Genjiro/TTF/Genjiro SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/Makise/Makise SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/Makise/Makise SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/Osake - Japanese Font/2. TTF/Osake SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/Osake - Japanese Font/2. TTF/Osake SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/_Product/Hirokawa SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Fonts/_Product/Hirokawa SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Caliz.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Caliz.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/GameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/GameManager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/VirtualCamera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Prefabs/VirtualCamera.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/ArenaScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/ArenaScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene/SkyandFogSettingsProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/CarlosScene/SkyandFogSettingsProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/NormalWorldScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scenes/NormalWorldScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Arena_LevelManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Arena_LevelManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Caliz/CalizController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Caliz/CalizController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Caliz/CalizHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Caliz/CalizHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Enemy/EnemyHealth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/MainMenu_LevelManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/MainMenu_LevelManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/NormalWorld_LevelManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/NormalWorld_LevelManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/PlayerStorage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Levels/Arena_LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Levels/Arena_LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Levels/NormalWorld_LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Levels/NormalWorld_LevelManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/VirtualCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/VirtualCameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Scripts/Player/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Sounds/Background/NormalDimensionBackground.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Carlos/Sounds/Background/NormalDimensionBackground.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Animations/hi1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Animations/hi1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Animations/hit2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Animations/hit2.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Respawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InvisibleAssassin/Magano/Scripts/Respawn.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/HDRPUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +142,7 @@
       <workItem from="1679757072952" duration="4869000" />
       <workItem from="1679770409789" duration="3340000" />
       <workItem from="1679821129213" duration="13501000" />
-      <workItem from="1679840632852" duration="28016000" />
+      <workItem from="1679840632852" duration="33790000" />
     </task>
     <servers />
   </component>

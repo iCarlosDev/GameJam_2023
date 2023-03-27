@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1630.9121, g: 1803.4863, b: 2648.7285, a: 1}
+  m_IndirectSpecularColor: {r: 1630.873, g: 1803.4863, b: 2648.7168, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -412,11 +412,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GameManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 5748380498480838121, guid: 48762fe64c518c74ca8bfccd7fe789de,
-        type: 3}
-      propertyPath: soulsRequired
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5748380498480838122, guid: 48762fe64c518c74ca8bfccd7fe789de,
         type: 3}
@@ -1648,14 +1643,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 558220304}
     m_Modifications:
-    - target: {fileID: 1565359204, guid: cb80936f8c857ce4cbd74ca7f48aeec3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1565359205, guid: cb80936f8c857ce4cbd74ca7f48aeec3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.042189
-      objectReference: {fileID: 0}
     - target: {fileID: 1532762108476389478, guid: cb80936f8c857ce4cbd74ca7f48aeec3,
         type: 3}
       propertyPath: m_Name
