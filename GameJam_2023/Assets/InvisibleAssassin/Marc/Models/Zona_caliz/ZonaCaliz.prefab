@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3950851372737080212}
   - component: {fileID: 106931841005823025}
   - component: {fileID: 2782963679245914363}
+  - component: {fileID: 4713179074325101665}
+  - component: {fileID: 8300858299793436976}
   m_Layer: 0
   m_Name: ZonaCaliz
   m_TagString: Untagged
@@ -83,3 +85,30 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4713179074325101665
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440530302567969070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7977371951461396693, guid: 58951485483036746ad786bf1fc3e2c5, type: 3}
+--- !u!65 &8300858299793436976
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440530302567969070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.547592, y: 4.040856, z: 5.3495903}
+  m_Center: {x: -0.04613304, y: 2.015404, z: 0.007595539}

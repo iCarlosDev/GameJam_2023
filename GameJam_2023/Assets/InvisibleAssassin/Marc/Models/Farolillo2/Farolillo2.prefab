@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 8619195630655455748}
   - component: {fileID: 6052159060502145995}
   - component: {fileID: 8789990785371583725}
+  - component: {fileID: 18711001802870539}
   m_Layer: 0
   m_Name: Farolillo_Tipo_2 1
   m_TagString: Untagged
@@ -147,3 +148,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &18711001802870539
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8677819694932250424}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.36108503, y: 0.69493604, z: 0.361084}
+  m_Center: {x: -0.0000005140901, y: 0.34746802, z: 0.00000011920929}

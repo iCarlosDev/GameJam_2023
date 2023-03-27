@@ -123,6 +123,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8960653569380441135}
+  - component: {fileID: 1685077206912539822}
+  - component: {fileID: 5652787533208054986}
   m_Layer: 0
   m_Name: "Torii_Rev\xE9s"
   m_TagString: Untagged
@@ -147,3 +149,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1685077206912539822
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8579764515400418965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6276765, y: 3.813707, z: 0.739274}
+  m_Center: {x: 1.3016658, y: 1.9087454, z: 0.011521816}
+--- !u!65 &5652787533208054986
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8579764515400418965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6276765, y: 3.813707, z: 0.739274}
+  m_Center: {x: -1.87, y: 1.9087454, z: 0.011521816}
