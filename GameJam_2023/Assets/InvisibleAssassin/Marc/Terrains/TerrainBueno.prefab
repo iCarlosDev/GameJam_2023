@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6646471407318209542
+--- !u!1 &3536911730575199071
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6646471407318209545}
-  - component: {fileID: 6646471407318209547}
-  - component: {fileID: 6646471407318209544}
+  - component: {fileID: 3536911730575199068}
+  - component: {fileID: 3536911730575199138}
+  - component: {fileID: 3536911730575199069}
   m_Layer: 0
-  m_Name: TerrainLvL_bUENO
+  m_Name: TerrainBueno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!4 &6646471407318209545
+--- !u!4 &3536911730575199068
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6646471407318209542}
+  m_GameObject: {fileID: 3536911730575199071}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6822395, y: 107.21808, z: -84.53196}
+  m_LocalPosition: {x: -2.7, y: 107.21808, z: -85.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!218 &6646471407318209547
+--- !u!218 &3536911730575199138
 Terrain:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6646471407318209542}
+  m_GameObject: {fileID: 3536911730575199071}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 350768d86aa1a7745b02e27f073a416a, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: b51d382cf20eb9e45a5886ac7fed64b5, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -58,23 +58,23 @@ Terrain:
   m_DrawTreesAndFoliage: 1
   m_StaticShadowCaster: 0
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 7ceb5fb405eebd2479b30eabef4ae40a, type: 2}
+  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
   m_ScaleInLightmap: 0.0256
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
-  m_GroupingID: 1
+  m_GroupingID: 0
   m_RenderingLayerMask: 257
   m_AllowAutoConnect: 1
---- !u!154 &6646471407318209544
+--- !u!154 &3536911730575199069
 TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6646471407318209542}
+  m_GameObject: {fileID: 3536911730575199071}
   m_Material: {fileID: 0}
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: 350768d86aa1a7745b02e27f073a416a, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: b51d382cf20eb9e45a5886ac7fed64b5, type: 2}
   m_EnableTreeColliders: 1
